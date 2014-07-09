@@ -1,0 +1,8 @@
+caption always
+#caption string '%{= km}%S%=%-w%{= kM}[ %t ]%+w'
+#caption string '%{= km}%c%=ᗣ ᗧ • • •ᗣ %=%-w%{+ bM}[%t]%{= km}%+w'
+#caption string '%{= km}%c%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=%-w%{+ bM}[%t]%{= km}%+w'
+#caption string '%{= km}%c%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=%-w%{+ bM}[%t]%{= km}%+w'
+caption string '%{= km}%c <}=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-={> %-w%{+ bM}[%t]%{= km}%+w'
+history 500
+startup_message off
