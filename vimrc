@@ -1,9 +1,11 @@
-" Team standard!!
+set nocompatible
+set ttyfast
+
+filetype off
+call pathogen#infect()
+
+syntax on
+filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
-"
-syntax enable
 set number
-execute pathogen#infect()
-filetype plugin indent on
-

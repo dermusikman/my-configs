@@ -4,5 +4,5 @@ caption always
 #caption string '%{= km}%c%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=%-w%{+ bM}[%t]%{= km}%+w'
 #caption string '%{= km}%c%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=%-w%{+ bM}[%t]%{= km}%+w'
 caption string '%{= km}%c <}=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-=#%{= kM}{( %{= kC}+%{= kM} )}%{= km}#=-%=-={> %-w%{+ bM}[%t]%{= km}%+w'
-history 500
+defscrollback 1500
 startup_message off
