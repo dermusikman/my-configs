@@ -8,6 +8,7 @@ set shiftwidth=2
 set autoindent
 set smartindent
 set number
+set ruler
 
 colorscheme desert
 
