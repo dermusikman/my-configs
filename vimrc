@@ -10,7 +10,8 @@ set smartindent
 set number
 set ruler
 
-colorscheme desert
+"colorscheme desert
+colorscheme detailed
 
 "Shift-Enter to complete Ruby blocks
 imap <S-CR>    <CR><CR>end<Esc>-cc
